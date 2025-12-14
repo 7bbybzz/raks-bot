@@ -3,7 +3,7 @@ const QRCode = require('qrcode');
 const express = require('express');
 
 const app = express();
-const bot = new Telegraf(process.env.TOKEN || "YOUR_TOKEN_HERE");
+const bot = new Telegraf(process.env.TOKEN || "8146094042:AAH0MU9-QdyjM9b7wLb1vMF1uw-WnfLk-GQ");
 
 const ADMIN_KEY = "Cl339950";
 const PRICE = 60;
